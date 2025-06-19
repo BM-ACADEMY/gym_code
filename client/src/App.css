@@ -1,0 +1,20 @@
+html,body {
+    scroll-behavior: smooth !important;
+    scroll-padding-top: 80px;
+  }
+  
+
+  /* Scrollbar Styling for WebKit Browsers */
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #0e0d11; /* Light blue background */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #c72527; /* Blue scroll thumb */
+  border-radius: 6px;
+  border: 2px solid #0e0d11;
+}
