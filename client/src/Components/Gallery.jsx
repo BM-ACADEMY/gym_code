@@ -12,6 +12,11 @@ import 'aos/dist/aos.css';  // Import AOS styles
 
 const Gallery = () => {
   const images = [
+    '/gallery/1.jpg',
+    '/gallery/2.jpg',
+    '/gallery/3.jpg',
+    '/gallery/4.jpg',
+    '/gallery/5.jpg',
     '/gallery/IMG_2749.JPG',
     '/gallery/IMG_4873.jpg',
     '/gallery/IMG-20250421-WA0014.jpg',
@@ -19,11 +24,6 @@ const Gallery = () => {
     '/gallery/IMG-20250421-WA0017.jpg',
     '/gallery/IMG-20250421-WA0018.jpg',
     '/gallery/IMG-20250421-WA0019.jpg',
-    '/gallery/1.jpg',
-    '/gallery/2.jpg',
-    '/gallery/3.jpg',
-    '/gallery/4.jpg',
-    '/gallery/5.jpg',
   ];
 
   const itemsPerPage = 6;
